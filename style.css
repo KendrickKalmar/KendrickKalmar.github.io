@@ -1,0 +1,125 @@
+/* Сброс стилей для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили для body */
+body 
+{
+
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce); /* Градиент */
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center;     /* Вертикальное выравнивание по центру */
+    min-height: 100vh;       /* Высота экрана */
+    background-color: #f4f4f9; /* Светло-серый фон */
+    font-family: Arial, sans-serif;
+}
+
+/* Карточка визитки */
+.card {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 400px;        /* Максимальная ширина */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    text-align: center;      /* Центрирование текста */
+}
+
+/* Секция заголовка */
+.header {
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;      /* Круглое фото */
+    object-fit: cover;       /* Чтобы не было искажений */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.header__name {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.header__subtitle {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* О себе */
+.about h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+/* Контакты */
+.contacts h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contacts__list {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts__list li {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contacts__list a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contacts__list a:hover {
+    text-decoration: underline;
+}
+/* Стили для кнопки */
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+/* Стили для текста цитаты */
+.quote-text {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #333;
+    font-style: italic;
+}

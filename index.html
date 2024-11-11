@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приятно познакомится</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="card">
+        <header class="header">
+            <img src="photo.jpg" alt="Ваше фото" class="profile-photo">
+            <h1 class="header__name">Хохлов Александр</h1>
+            <h2 class="header__subtitle">QA Engineer</h2>
+        </header>
+
+        <section class="about">
+            <h2>О себе</h2>
+            <p>Напишите мне, обо всём договоримся</p>
+        </section>
+
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <ul class="contacts__list">
+                <li><strong>Email:</strong> <a href="mailto:hohlovaleksandr37@gmail.com">hohlovaleksandr37@gmail.com</a></li>
+                <li><strong>Телефон:</strong> <a href="tel:+79052364008">+79052364008</a></li>
+                <li><strong>Telegram:</strong> <a href="https://t.me/itcouldbeus" target="_blank">https://t.me/itcouldbeus</a></li>
+            </ul>
+        </section>
+
+        <!-- Кнопка и цитата -->
+        <section class="quote-section">
+            <button id="quoteButton" class="button">Показать цитату</button>
+            <p id="quoteText" class="quote-text"></p>
+        </section>
+    </div>
+
+    <!-- Подключение JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
